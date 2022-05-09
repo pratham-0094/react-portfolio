@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   const menuItems = [
-    { name: `HOME`, path: `/` },
+    { name: `HOME`, path: `/portfolio` },
     { name: `PROJECT`, path: `/project` }
   ];
   return (
