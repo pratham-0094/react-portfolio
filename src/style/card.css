@@ -1,0 +1,21 @@
+.anime {
+  animation: fadein 1s linear;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.hover-delay {
+  background-color: rgb(255, 255, 255);
+  transition: all 0.4s ease;
+}
+
+.hover-delay:hover {
+  background-color: rgb(14, 165, 233);
+}
