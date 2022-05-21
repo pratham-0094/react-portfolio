@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   const menuItems = [
-    { name: `HOME`, path: `/portfolio/` },
-    { name: `PROJECT`, path: `/portfolio/project` }
+    { name: `HOME`, path: `/react-portfolio/` },
+    { name: `PROJECT`, path: `/react-portfolio/project` }
   ];
   return (
     <div className="py-6 mb-6">
