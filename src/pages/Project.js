@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Card";
+import { AccInfo, Address, ToDo, Firstmy, JuicyNYummy } from "../images/images";
 
 function Project() {
   let projects = [
@@ -9,7 +10,7 @@ function Project() {
       tech: ["HTML", "CSS", "JAVASCRIPT", "PHP", "MYSQL"],
       link: "https://github.com/pratham-0094/Address-Book",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      image: Address,
       tag: ["#PERSONAL", "#WEB"],
     },
     {
@@ -18,7 +19,7 @@ function Project() {
       tech: ["HTML", "CSS ", "JAVASCRIPT"],
       link: "https://github.com/pratham-0094/AccInfo",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      image: AccInfo,
       tag: ["#PERSONAL", "#WEB"],
     },
     {
@@ -27,7 +28,7 @@ function Project() {
       tech: ["HTML", "CSS", "JAVASCRIPT", "MERN"],
       link: "https://github.com/prakhar-5447/firstmy",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      image: Firstmy,
       tag: ["#TEAM", "#WEB"],
     },
     {
@@ -36,8 +37,8 @@ function Project() {
       tech: ["HTML", "CSS", "TYPESCRIPT", "ANGULAR"],
       link: "https://github.com/pratham-0094/angular-project",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
-      tag: ["#WEB"],
+      image: ToDo,
+      tag: ["#PERSONAL", "#WEB"],
     },
     {
       title: "Juicy-N-Yummy",
@@ -45,7 +46,7 @@ function Project() {
       tech: ["HTML", "CSS", "TYPESCRIPT", "MEAN"],
       link: "https://github.com/pratham-0094/Juicy-N-Yummy",
       host: "",
-      // image: "https://raw.githubusercontent.com/prakhar-5447/firstmy/master/src/images/bg3.jpg",
+      image: JuicyNYummy,
       tag: ["#TEAM", "#WEB"],
     },
   ];
